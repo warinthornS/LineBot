@@ -120,11 +120,11 @@ if(!is_null($events)){
                                 array(
                                     new MessageTemplateActionBuilder(
                                         'Yes',
-                                        'Text Yes'
+                                        'www.google.com'
                                     ),
                                     new MessageTemplateActionBuilder(
                                         'No',
-                                        'Text NO'
+                                        'www.hotmail.com'
                                     )
                                 )
                         )
