@@ -118,11 +118,11 @@ if(!is_null($events)){
                         new ConfirmTemplateBuilder(
                                 'Confirm template builder',
                                 array(
-                                    new MessageTemplateActionBuilder(
+                                    new UriTemplateActionBuilder(
                                         'Yes',
                                         'www.google.com'
                                     ),
-                                    new MessageTemplateActionBuilder(
+                                    new UriTemplateActionBuilder(
                                         'No',
                                         'www.hotmail.com'
                                     )
