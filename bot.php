@@ -97,7 +97,7 @@ if(!is_null($events)){
                     $replyData = new StickerMessageBuilder($packageID,$stickerID);
                     break;      
                 case "im":
-                    $imageMapUrl = 'https://www.mywebsite.com/imgsrc/photos/w/sampleimagemap';
+                    $imageMapUrl = 'https://static.pexels.com/photos/207171/pexels-photo-207171.jpeg';
                     $replyData = new ImagemapMessageBuilder(
                         $imageMapUrl,
                         'This is Title',
@@ -108,7 +108,7 @@ if(!is_null($events)){
                                 new AreaBuilder(0,0,520,699)
                                 ),
                             new ImagemapUriActionBuilder(
-                                'http://www.ninenik.com',
+                                'www.google.com',
                                 new AreaBuilder(520,0,520,699)
                                 )
                         )); 
